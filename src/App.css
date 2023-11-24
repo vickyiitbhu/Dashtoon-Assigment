@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* created by myself */
+.slides{
+  border: white;
+  border-width: 5px;
+}
+.carousel-item{
+  display: block;
+}
+.input{
+  background-color: aliceblue;
+  text-size: 100rpm;
+}
+.slides {
+  width: 70%;
+  margin: auto; 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* Make the arrows black */
+}
+
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.slides {
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 20px;
+}
