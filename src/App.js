@@ -58,10 +58,10 @@ function App() {
 
 
   const handleGenerateImages = () => {
-    setShowImages(true);
     console.log("clicked")
+    setShowImages(true);
     const generatedImages = [];
-
+    
     for (let i = 0; i < 10; i++) {
       const text=myData[i] || "generate random image";
       query({"inputs": text}).then((response) => {
@@ -130,7 +130,7 @@ function App() {
         </div>
       ) : null}
 
-      <p>Array content: {JSON.stringify(myData)}</p>
+      {/* <p>Array content: {JSON.stringify(myData)}</p> */}
     </div>
   );
 }
